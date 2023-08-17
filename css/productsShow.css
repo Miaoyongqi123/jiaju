@@ -1,0 +1,19 @@
+.right-img{
+height: 1000px;
+width: 900px;
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+}
+.right-img .first,.second,.third,.fourth{
+    height:300px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.right-img div h2{
+    font-size: 14px;
+}
+.right-img p{
+    font-size: 14px;
+}

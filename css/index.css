@@ -1,0 +1,305 @@
+.mid img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.ban {
+    display: flex;
+    height: 230px;
+    margin-top: 30px;
+
+}
+
+.ban div {
+    width: 33.33%;
+    text-align: center;
+
+}
+
+.ban div h2 {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    color: #fff;
+}
+
+.ban div p {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 2em;
+    color: rgba(199, 213, 227);
+
+
+
+}
+
+.ban .img1 {
+    background: url(../images/01.jpg) no-repeat;
+    background-size: 100%;
+
+}
+
+.ban .img2 {
+    background: url(../images/02.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.ban .img3 {
+    background: url(../images/03.jpg) no-repeat;
+    background-size: 100%;
+}
+
+/* 产品展示区域 */
+.show {
+    margin-top: 10px;
+
+}
+
+.head {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 40px;
+
+}
+
+.head .text-left {
+    font-size: 24px;
+}
+
+.head .text-right {
+
+    font-size: 20px;
+    color: #ccc;
+}
+
+.show .img {
+    display: flex;
+
+
+}
+
+.show .img .left img {
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.about {
+    background-image: url(../images/banner3.jpg);
+    background-size: 100%;
+    height: 430px;
+
+}
+
+.about .detial {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.about .detial .text h2 {
+    font-size: 24px;
+
+    color: #333;
+}
+
+.about .detial .text {
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    color: rgba(107, 107, 107);
+    font-size: 12px;
+    text-indent: 2em;
+
+}
+
+.about .detial .text p {
+    height: 20px;
+    line-height: 20px;
+    margin: 40px auto;
+}
+
+.about .detial .more {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #25BBCE;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* 新闻动态区域 */
+.news .head {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 40px;
+
+}
+
+.news .banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .banner img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .head .text-left {
+    font-size: 24px;
+}
+
+.news .banner .active-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .banner ul li {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.news .banner ul li a {
+    color: skyblue;
+    font-size: 14px;
+}
+
+.news .banner .active-left ul li span {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.news .banner .active-left ul li .mid {
+    font-size: 16px;
+    color: #333;
+}
+
+.foot {
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.link {
+   
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.foot .link .link-left {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.link p,
+h2,
+span {
+    color: rgb(107, 109, 113);
+}
+
+.foot .link .detial {
+    margin-top: 90px;
+    display: flex;
+}
+
+.foot .link .link-left .logo {
+    height: 130px;
+}
+
+.foot .link .detial .text {
+    margin-left: 10px;
+}
+
+.foot .link .detial .text p {
+    height: 30px;
+    line-height: 30px;
+
+
+}
+
+.foot .link .link-mid {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.foot .link .link-mid h2 {
+    margin-bottom: 90px;
+    color: #fff;
+    font-size: 20px;
+}
+.foot .link .link-mid span{
+    margin-top: 40px;
+    margin-right: 70px;
+    font-size: 16px;
+}
+.foot .link .link-mid p{
+    margin-top: 40px;
+    margin-right: 70px;
+}
+.foot .link .link-right{
+height: 300px;
+
+width: 360px;
+
+ 
+}
+
+.foot .link .link-right .btn button{
+    display: inline-block;
+    height: 63px;
+    width: 100px;
+    box-sizing: border-box;
+    background-color: rgb(58, 162, 127);
+}
+.foot .link .link-right .btn input{
+  height: 60px;
+  width: 200px;
+  line-height: 60px;
+  margin-top: 90px;
+}
+.foot .link .link-right h2{
+    color: #fff;
+    font-size: 20px;
+}
+.foot .link .link-right h2:hover{
+ border-bottom: 1px solid skyblue;
+
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    color: rgb(107, 109, 113);
+    line-height: 50px;
+    font-size: 12px;
+
+}
+.foot .link .link-right .follow{
+    margin-top: 10px;
+}
+.foot .link .link-right .follow span{
+    font-size: 14px;
+}

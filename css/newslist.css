@@ -1,0 +1,50 @@
+.big-box1{
+    height: 750px;
+    width: 334px;
+    display: flex;
+}
+.title{
+    height: 123px;
+    width: 80px;
+    line-height: 123px;
+    font-size: 20px;
+
+}
+.big-box1 .left div{
+    height: 100px;
+    width: 330px;
+    border: 1px solid #F6F6F6;
+    text-align: center;
+    line-height: 100px;
+    background-color: #F6F6F6;
+    margin-bottom: 20px;
+
+}
+.big-box1 .left div p{
+    font-size: 20px;
+}
+.big-box1 .left .flower img{
+height: 330px;
+width: 330px;
+}
+.big-box1 .right {
+    margin-left: 10px;
+}
+.big-box1 .right ul li{
+    height: 100px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.big-box1 .right div p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #ccc;
+
+}
+.block-box{
+    height: 500px;
+}
+.foot{
+    margin-top: 300px;
+}
